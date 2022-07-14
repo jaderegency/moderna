@@ -84,14 +84,23 @@ img{
     right:0;
     font-weight: 500;
 }
+#watermark {
+    position:absolute;
+    margin-top: 210vw;
+    margin-left: 20%;
+    font-size: 2.5vw;
+}
+span{
+    text-decoration: underline;
+}
 
 @media only screen and (min-width:556px) {
     body{
-        padding-left:7%;
+        padding:5%;
     }
     h1{
         font-size: 3vw;
-        margin-top:-1vw;
+        margin-top:1vw;
     }
     #info{
         margin-left:52%;
@@ -126,7 +135,7 @@ img{
     #tchled{
         width:20%;
         margin-left:60%;
-        margin-top:-34vw;
+        margin-top:-33vw;
         float: left;
 
     }
@@ -147,7 +156,7 @@ img{
         width:20%;
         float:right;
         margin-right:19.5%;
-        margin-top: 7vw;
+        margin-top: 8vw;
         
     }
     #lft{
@@ -161,6 +170,21 @@ img{
         transition: 300ms;
         cursor: pointer;
     }
-      
+    #watermark {
+        position:absolute;
+        margin-top: 80vw;
+        margin-left: 30%;
+        font-size: 1.5vw;
+    }
+}
+
+@media screen  and (min-width: 1000px){
+   
+    #watermark {
+        position:absolute;
+        margin-top: 80vw;
+        margin-left: 35%;
+        font-size: 1.1vw;
+    }
     
 }
